@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port-folio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#Skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        <i class='bx bx-menu' id="menu"></i>
+    </header>
+    <section class="home" id="home">
+
+        <div class="text-content">
+            <h1>Hello, my name is</h1>
+            <h2>PREMANAND NAIK</h2>
+            <h5>And I'm a Web-Developer</h5>
+            <p></p>
+            <div class="social-media">
+                <a href="https://github.com/prema24"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/premanand2407/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://x.com/ARYAS_24"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <button class="btn" onclick="window.open('./assets/resume.pdf')">Downlaod CV</button>
+        </div>
+        <div class="cover">
+            <div class="image"></div>
+            <div class="layout"></div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="image-cover">
+
+            <div class="img">
+                <h2>PREMANAND</h2>
+                <h5>WEB DEVLOPER</h5>
+                <img src="assets/adad.png" alt="">
+            </div>
+        </div>
+        <div class="about-text">
+            <h3 class="title"><i class='bx bx-user'></i>ABOUT ME</h3>
+            <p>A Computer Science and Engineering student at Raajdhani Engineering College 
+                proficient in .NET,JAVA, HTML, CSS, and JavaScript. Possesses strong problem-solving abilities, effective time management, and excellent communication and presentation skills. Demonstrates a keen interest in extracurricular activities and a committed desire to continuously improve
+                 and succeed as a proficient programmer.</p>
+             <button class="btn"
+             onclick="window.location.href='https://www.linkedin.com/in/premanand2407/';">Read More .IN</button>
+            <div class="social-media">
+                <a href="https://github.com/prema24"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/premanand2407/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="Skills" id="Skills">
+        <h3 class="title"><i class='bx bx-user'></i>SKILLS</h3>
+        <div class="skill-container">
+            <div class="skills-content">
+                <i class='bx bxl-html5'></i>
+                <h5>HTML</h5>
+                <p>An HTML developer should have proficiency in: HTML5: Strong knowledge of the latest HTML standard. Semantic HTML: Ability to use HTML tags in a semantically meaningful way. CSS: Basic understanding to style HTML elements. Responsive Design: Skills to create websites that work well on various devices.</p>
+                <!-- <button class="btn">Read More</button> -->
+            </div>
+            <div class="skills-content">
+                <i class='bx bxl-css3'></i>
+                <h5>CSS</h5>
+                <p>CSS (Cascading Style Sheets) primarily focuses on the presentation layer of web pages, dictating the layout, colors, fonts, and overall visual aesthetics.</p>
+                <!-- <button class="btn">Read More</button> -->
+            </div>
+            <div class="skills-content">
+                <i class='bx bxl-javascript'></i>
+                <h5>Java Script</h5>
+                <p>JavaScript is a widely used programming language that enables the creation of interactive websites and applications for a range of purposes.</p>
+                <!-- <button class="btn">Read More</button> -->
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h3 class="title"><i class='bx bx-book-open'></i>EDUCATION</h3>
+        <div class="row">
+            <div class="column">
+                <div class="education-content">
+                    <div class="year"><i class='bx bx-time'></i>2019</div>
+                    <h2>Durga Madhaba high School,Kalampur</h2>
+                    <p> Secondary Education(class-10th)
+                        score-58%</p>
+                </div>
+                <div class="education-content">
+                    <div class="year"><i class='bx bx-time'></i>2021</div>
+                    <h2>Vikash +2 Science College,Bhawanipatna</h2>
+                    <p>Senior Secondary Education(class-12th)
+                        score-62%</p>
+                </div>
+                <div class="education-content">
+                    <div class="year"><i class='bx bx-time'></i>2021-2025</div>
+                    <h2>Raajdhani Engineering College,Bhubaneswar</h2>
+                    <p> Bachelor of Technology in Computer Science Engineering
+                        score- 7.76 CGPA</p>
+                </div>
+            </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="title"><i class='bx bx-headphone'></i>CONTACT ME</h2>
+        <form action="#" id="">
+            <div class="input-box">
+                <input type="text" required placeholder="Full Name">
+                <input type="email" required placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" required placeholder="Mobile Number">
+                <input type="email" required placeholder="Subject For">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer>
+        <div class="text">
+            <p>Copyright @ 2024 By Prema</p>
+        </div>
+       <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script>
+        const menubar = document.querySelector('#menu');
+const Navbar = document.querySelector('.navbar');
+menubar.onclick=()=>{
+    menubar.classList.toggle('bx-x');
+    Navbar.classList.toggle('active')
+}
+const section=document.querySelectorAll('section');
+const navlink = document.querySelectorAll('header nav a')
+window.onscroll = ()=>{
+    section.forEach(sec=>{
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id')
+        if(top>offset && top < offset + height){
+            sec.classList.add('start-animation');
+            navlink.forEach(links=>{
+                links.classList.remove('active')
+                document.querySelector('header nav a[href*='+id+']').classList.add('active')
+              
+            })
+        }
+    })
+    var header = document.querySelector('.header');
+    header.classList.toggle('sticky',window.scrollY>100)
+    menubar.classList.remove('bx-x');
+    Navbar.classList.remove('active')
+}
+
+    </script>
+</body>
+
+</html>
